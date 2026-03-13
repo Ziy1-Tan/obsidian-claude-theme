@@ -38,7 +38,7 @@ The goal is to carry Claude Code's reading atmosphere into Obsidian: warm neutra
 3. Create a new folder named `Claude-Like` and place both files inside
 4. Go to **Settings → Appearance → Themes** and select **Claude-Like**
 
-### With an AI coding assistant
+### With Claude code
 
 ```
 Install this Obsidian theme for me: https://github.com/Ziy1-Tan/obsidian-claude-theme
