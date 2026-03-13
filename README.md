@@ -45,19 +45,8 @@ The goal isn't a pixel-perfect replica of Claude Code's UI, but to carry its rea
 
 ### With an AI assistant (Claude Code / Cursor / etc.)
 
-Tell your AI assistant:
-
 ```
-Download theme.css and manifest.json from https://github.com/<your-username>/obsidian-claude-theme,
-place them in my Obsidian vault at .obsidian/themes/Claude-Like/,
-then set cssTheme to "Claude-Like" in .obsidian/appearance.json.
-```
-
-Or if you already have the files locally:
-
-```
-Copy theme.css and manifest.json to <vault-path>/.obsidian/themes/Claude-Like/
-and set cssTheme to "Claude-Like" in <vault-path>/.obsidian/appearance.json.
+帮我下载这个 Obsidian 主题：https://github.com/<your-username>/obsidian-claude-theme
 ```
 
 ---
