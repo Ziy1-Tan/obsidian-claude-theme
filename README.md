@@ -46,7 +46,7 @@ The goal isn't a pixel-perfect replica of Claude Code's UI, but to carry its rea
 ### With an AI assistant (Claude Code / Cursor / etc.)
 
 ```
-帮我下载这个 Obsidian 主题：https://github.com/<your-username>/obsidian-claude-theme
+Install this Obsidian theme for me: https://github.com/<your-username>/obsidian-claude-theme
 ```
 
 ---
