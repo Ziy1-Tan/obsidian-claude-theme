@@ -43,10 +43,10 @@ The goal isn't a pixel-perfect replica of Claude Code's UI, but to carry its rea
 4. Place both files inside it
 5. Back in Obsidian, go to **Settings → Appearance → Themes** and select **Claude-Like**
 
-### With an AI assistant (Claude Code / Cursor / etc.)
+### Claude Code / Codex / etc.
 
 ```
-Install this Obsidian theme for me: https://github.com/<your-username>/obsidian-claude-theme
+Install this Obsidian theme for me: https://github.com/Ziy1-Tan/obsidian-claude-theme
 ```
 
 ---
