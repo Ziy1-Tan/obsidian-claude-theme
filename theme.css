@@ -639,6 +639,37 @@ body {
   border-top-color: #0e0c0a;
 }
 
+/* ─── Notice (右上角弹窗) ────────────────────────────────────── */
+.theme-light .notice {
+  background-color: #2b2621;
+  color: #f5f2ec;
+  border: none;
+  box-shadow: 0 4px 12px rgba(43, 38, 33, 0.25);
+}
+
+.theme-light .notice .notice-close {
+  color: #a8998a;
+}
+
+.theme-light .notice .notice-close:hover {
+  color: #f5f2ec;
+}
+
+.theme-dark .notice {
+  background-color: #1d1915;
+  color: #ddd4ca;
+  border: 1px solid #332b25;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.theme-dark .notice .notice-close {
+  color: #6b5e53;
+}
+
+.theme-dark .notice .notice-close:hover {
+  color: #ddd4ca;
+}
+
 /* ─── Tags ──────────────────────────────────────────────────── */
 .tag {
   background-color: var(--tag-background);
