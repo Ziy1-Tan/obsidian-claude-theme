@@ -589,11 +589,10 @@ body {
 }
 
 /* ─── Sidebar / File Explorer ───────────────────────────────── */
+/* 间距/尺寸完全沿用 Obsidian 默认值，只覆盖颜色 */
 .nav-folder-title,
 .nav-file-title {
   color: var(--nav-item-color);
-  border-radius: var(--radius-s);
-  padding: 2px 6px;
 }
 
 .nav-folder-title:hover,
@@ -614,6 +613,30 @@ body {
 
 .nav-indentation-guide {
   border-left-color: var(--nav-indentation-guide-color);
+}
+
+/* ─── Tooltip ───────────────────────────────────────────────── */
+/* 亮色模式下确保 tooltip 对比度清晰，沿用 Obsidian 深色 tooltip 约定 */
+.theme-light .tooltip {
+  background-color: #2b2621;
+  color: #f5f2ec;
+  border: none;
+}
+
+.theme-light .tooltip-arrow {
+  border-bottom-color: #2b2621;
+  border-top-color: #2b2621;
+}
+
+.theme-dark .tooltip {
+  background-color: #0e0c0a;
+  color: #ddd4ca;
+  border: 1px solid #332b25;
+}
+
+.theme-dark .tooltip-arrow {
+  border-bottom-color: #0e0c0a;
+  border-top-color: #0e0c0a;
 }
 
 /* ─── Tags ──────────────────────────────────────────────────── */
