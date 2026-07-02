@@ -1,4 +1,4 @@
-# Obsdian Claude-Like Theme
+# Obsidian Claude-Like Theme
 
 An Obsidian theme inspired by the visual aesthetic of [Claude Code](https://claude.ai/code) — warm off-white backgrounds, terracotta orange accents, and a calm reading experience in both light and dark mode.
 
