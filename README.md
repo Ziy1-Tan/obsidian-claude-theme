@@ -1,15 +1,14 @@
-# Obsidian Claude-Like Theme
+# Obsidian Claude Theme
 
-An Obsidian theme inspired by the visual aesthetic of [Claude Code](https://claude.ai/code) — warm off-white backgrounds, terracotta orange accents, and a calm reading experience in both light and dark mode.
+An Obsidian theme based on the look of [Claude](https://claude.com/product/overview). Supports light and dark mode.
 
-![Light Mode](images/light.png)
+![Light mode](theme-preview-light.png)
 
-![Dark Mode](images/dark.png)
-
+![Dark mode](theme-preview-dark.png)
 
 ## Installation
 
-### With Claude code
+### With Claude Code
 
 ```
 Install this Obsidian theme for me: https://github.com/Ziy1-Tan/obsidian-claude-theme
@@ -17,29 +16,31 @@ Install this Obsidian theme for me: https://github.com/Ziy1-Tan/obsidian-claude-
 
 ### Manual
 
-1. Download `theme.css` and `manifest.json` from this repository
-2. In Obsidian, go to **Settings → Appearance → Open themes folder**
-3. Create a new folder named `Claude-Like` and place both files inside
-4. Go to **Settings → Appearance → Themes** and select **Claude-Like**
+1. In Obsidian, go to **Settings → Appearance → Open themes folder**
+2. Create a new folder named `Obsidian Claude Theme`
+3. Download `theme.css` and `manifest.json` from this repository into that folder
+4. Go to **Settings → Appearance → Themes** and select **Obsidian Claude Theme**
 
+```sh
+theme_dir="/path/to/your/vault/.obsidian/themes/Obsidian Claude Theme"
+mkdir -p "$theme_dir"
+curl -fL https://raw.githubusercontent.com/Ziy1-Tan/obsidian-claude-theme/main/theme.css -o "$theme_dir/theme.css"
+curl -fL https://raw.githubusercontent.com/Ziy1-Tan/obsidian-claude-theme/main/manifest.json -o "$theme_dir/manifest.json"
+```
 
-## Inspiration & Acknowledgements
+## Acknowledgements
 
-- **[Claude Code](https://claude.ai/code)** by [Anthropic](https://anthropic.com) — the warm `#faf9f5` off-white background, `#bc6a3a` burnt-orange accent, and visual design language
-- **[Typora Claude-Like Theme](https://github.com/Muyiiiii/Typora_Claude-Like_Theme)** by [Muyiiiii](https://github.com/Muyiiiii) — the color tokens in this theme are directly adapted from that work
+- [Claude](https://claude.com/product/overview) by [Anthropic](https://anthropic.com): the `#faf9f5` background, `#c6613f` accent, and overall design
+- [Typora Claude-Like Theme](https://github.com/Muyiiiii/Typora_Claude-Like_Theme) by [Muyiiiii](https://github.com/Muyiiiii): the color tokens are adapted from this theme
 
-The goal is to carry Claude Code's reading atmosphere into Obsidian: warm neutrals, soft contrast, and syntax highlighting that doesn't fight for attention.
+## Fonts
 
-
-## Font Recommendations
-
-Works with system fonts out of the box. For the best experience:
+System fonts work out of the box. Optional recommendations:
 
 | Purpose | Font |
 |---------|------|
 | Chinese body text | [Noto Serif CJK SC](https://fonts.google.com/noto/specimen/Noto+Serif+SC) |
 | Monospace / code | [Cascadia Code](https://github.com/microsoft/cascadia-code) · [SF Mono](https://developer.apple.com/fonts/) |
-
 
 ## License
 
