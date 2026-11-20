@@ -49,4 +49,4 @@ class Config:
 
 ---
 
-*Obsidian Claude Theme · v0.1.0*
+*Obsidian Claude Theme · v0.2.0*
